@@ -50,7 +50,7 @@ sudo ./install_linux_azcmagent.sh
 Image Attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Azure%20Arc%20Agent%20Installation%20on%20Ubuntu%20Terminal.png?raw=true>
 
 ### ✅ 4. Connect Ubuntu to Azure Arc
-```bash
+bash
 sudo azcmagent connect \
   --resource-group "AzureArcLab" \
   --tenant-id "<tenantId>" \
@@ -60,7 +60,7 @@ sudo azcmagent connect \
   --service-principal-id "<clientId>" \
   --service-principal-secret "<clientSecret>" \
   --tags 'Project=AzureArcLab,Owner=Babatunde,UseCase=SOC-Lab,OS=Ubuntu'
-```
+image attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/onboarding%20Arc%20to%20Ubuntu.png?raw=true>
 
 ---
 
