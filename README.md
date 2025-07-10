@@ -35,12 +35,12 @@ az group create --name AzureArcLab --location westus2
 
 
 ### ✅ 2. Create Service Principal
-```bash
+bash
 az ad sp create-for-rbac --name "AzureArcSP" \
   --role "Contributor" \
   --scopes /subscriptions/<sub-id>/resourceGroups/AzureArcLab \
   --sdk-auth > azurearc-sp.json
-```
+Image Attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/create-a-Service-Principal-named-AzureArcSP-07-09-2025_06_35_PM.png?raw=true>
 
 ### ✅ 3. Install Agent on Ubuntu VM
 ```bash
