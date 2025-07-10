@@ -31,7 +31,7 @@ This project demonstrates how I successfully onboarded a **Ubuntu 22.04 LTS virt
 ### ✅ 1. Create Azure Resource Group
 bash
 az group create --name AzureArcLab --location westus2
- image attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Resource-group-created.png.png?raw=true>
+![Alt]: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Resource-group-created.png.png?raw=true>
 
 
 ### ✅ 2. Create Service Principal
@@ -40,14 +40,14 @@ az ad sp create-for-rbac --name "AzureArcSP" \
   --role "Contributor" \
   --scopes /subscriptions/<sub-id>/resourceGroups/AzureArcLab \
   --sdk-auth > azurearc-sp.json
-Image Attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/create-a-Service-Principal-named-AzureArcSP-07-09-2025_06_35_PM.png?raw=true>
+![Alt]: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/create-a-Service-Principal-named-AzureArcSP-07-09-2025_06_35_PM.png?raw=true>
 
 ### ✅ 3. Install Agent on Ubuntu VM
 bash
 wget https://aka.ms/azcmagent -O install_linux_azcmagent.sh
 chmod +x install_linux_azcmagent.sh
 sudo ./install_linux_azcmagent.sh
-Image Attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Azure%20Arc%20Agent%20Installation%20on%20Ubuntu%20Terminal.png?raw=true>
+![Alt]: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Azure%20Arc%20Agent%20Installation%20on%20Ubuntu%20Terminal.png?raw=true>
 
 ### ✅ 4. Connect Ubuntu to Azure Arc
 bash
@@ -60,7 +60,7 @@ sudo azcmagent connect \
   --service-principal-id "<clientId>" \
   --service-principal-secret "<clientSecret>" \
   --tags 'Project=AzureArcLab,Owner=Babatunde,UseCase=SOC-Lab,OS=Ubuntu'
-image attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/onboarding%20Arc%20to%20Ubuntu.png?raw=true>
+![Alt]: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/onboarding%20Arc%20to%20Ubuntu.png?raw=true>
 
 ---
 
@@ -72,20 +72,17 @@ image attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/mai
 - Status: ✅ Connected
 - Resource Group: `AzureArcLab`
 
-![Azure Portal Screenshot](screenshots/azure-arc-connected.png)
+![Azure Portal Screenshot] <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/azure-arc-connected-machine-overview.png?raw=true>
+
+Include:
 
 ---
-
-## 📸 Screenshots
 
 Include:
 - ✅ Terminal output of `azcmagent connect`
 - ✅ Azure Portal → Azure Arc → Servers
 - ✅ Tag and Resource Group views
 
-Place your images in a `/screenshots` folder and use relative links like `![Alt](screenshots/yourimage.png)`
-
----
 
 ## 💡 Key Takeaways
 
