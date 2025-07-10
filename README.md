@@ -43,11 +43,11 @@ az ad sp create-for-rbac --name "AzureArcSP" \
 Image Attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/create-a-Service-Principal-named-AzureArcSP-07-09-2025_06_35_PM.png?raw=true>
 
 ### ✅ 3. Install Agent on Ubuntu VM
-```bash
+bash
 wget https://aka.ms/azcmagent -O install_linux_azcmagent.sh
 chmod +x install_linux_azcmagent.sh
 sudo ./install_linux_azcmagent.sh
-```
+Image Attached: <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Azure%20Arc%20Agent%20Installation%20on%20Ubuntu%20Terminal.png?raw=true>
 
 ### ✅ 4. Connect Ubuntu to Azure Arc
 ```bash
