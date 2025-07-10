@@ -30,7 +30,7 @@ This project demonstrates how I successfully onboarded a **Ubuntu 22.04 LTS virt
 ### ✅ 1. Create Azure Resource Group
 ```bash
 az group create --name AzureArcLab --location westus2
-![Image Alt](https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/333fd74c4814ad3e69bc909bac81d8ce1b094b46/Resource-group-created.png.png).
+![Image Alt] (https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/Resource-group-created.png.png?raw=true)
 
 ### ✅ 2. Create Service Principal
 ```bash
