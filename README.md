@@ -23,14 +23,17 @@ This project demonstrates how I successfully onboarded a **Ubuntu 22.04 LTS virt
 - Azure Active Directory (Service Principal)
 - RBAC (Role-Based Access Control)
 
----
+
+
 
 ## ⚙️ Key Steps
 
 ### ✅ 1. Create Azure Resource Group
 ```bash
 az group create --name AzureArcLab --location westus2
-Attached Image: <img width="1896" height="699" alt="Image" src="https://github.com/user-attachments/assets/c53ba4a3-9070-4b46-8a44-51b726c8e161" />
+![image] <img width="1896" height="699" alt="Image" src="https://github.com/user-attachments/assets/c53ba4a3-9070-4b46-8a44-51b726c8e161" />
+
+---![babatunde-VirtualBox-Microsoft-Azure-07-09-2025_01_25_AM](https://github.com/user-attachments/assets/d9ee5c4c-a945-4b16-923e-2d838f066d08) 
 
 
 ### ✅ 2. Create Service Principal
