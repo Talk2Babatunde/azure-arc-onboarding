@@ -31,8 +31,7 @@ This project demonstrates how I successfully onboarded a **Ubuntu 22.04 LTS virt
 ### ✅ 1. Create Azure Resource Group
 bash
 az group create --name AzureArcLab --location westus2
-<https://github.com> 
-<https://github.com/user-attachments/assets/18b63a6b-37e7-4c9f-9101-35e329c5b235)>
+ image attached: <https://github.com/user-attachments/assets/18b63a6b-37e7-4c9f-9101-35e329c5b235)>
 
 
 ### ✅ 2. Create Service Principal
