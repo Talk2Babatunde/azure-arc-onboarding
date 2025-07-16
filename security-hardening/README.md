@@ -23,6 +23,7 @@ This repository contains documentation, guides, and hands-on work I performed to
 
 **Unhealthy Recommendations**  
 [![Defender Unhealthy]<https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/b1d811466b6e10f6ca2b46768aadb4238c298bca/images/defender-unhealthy.png.png>
+
 **After Remediation**  
 [![Defender Remediated]<https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/48f504fa0b5705f44acdd992d1c584d7a75639e4/images/defender-healthy.png%20(2).png>
 
