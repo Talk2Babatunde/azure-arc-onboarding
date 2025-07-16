@@ -25,7 +25,7 @@ This repository contains documentation, guides, and hands-on work I performed to
 [![Defender Unhealthy](images/defender-unhealthy.png)](images/defender-unhealthy.png)
 
 **After Remediation**  
-[![Defender Remediated](images/defender-remediated.png)](images/defender-remediated.png)
+[![Defender Remediated]<https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/48f504fa0b5705f44acdd992d1c584d7a75639e4/images/defender-healthy.png%20(2).png>
 
 
 ## Purpose
