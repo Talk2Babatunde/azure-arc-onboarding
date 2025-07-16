@@ -5,7 +5,7 @@ This guide documents the steps I performed to harden SSH access on an Ubuntu vir
 ## 🔍 Initial State
 
 The VM had:
-- Password authentication enabled
+- Password authentication enabled 
 - Port 22 open to the internet
 - No brute-force protections
 
