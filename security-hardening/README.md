@@ -9,6 +9,24 @@ This repository contains documentation, guides, and hands-on work I performed to
 
 - [Defender for Cloud Remediation](defender-remediation.md)  
   Documentation of how I reviewed and remediated "Unhealthy" recommendations flagged by Microsoft Defender for Cloud.
+  ## 📸 Visual Evidence
+
+### 🔐 SSH Hardening
+
+**Before Hardening**  
+[![SSH Before Hardening](images ssh-before.png.png)](images/ssh-before.png)
+
+**After Hardening**  
+[![SSH After Hardening](images/ssh-after.png)](images/ssh-after.png)
+
+### 🛡️ Defender for Cloud Remediation
+
+**Unhealthy Recommendations**  
+[![Defender Unhealthy](images/defender-unhealthy.png)](images/defender-unhealthy.png)
+
+**After Remediation**  
+[![Defender Remediated](images/defender-remediated.png)](images/defender-remediated.png)
+
 
 ## Purpose
 
