@@ -14,7 +14,7 @@ This repository contains documentation, guides, and hands-on work I performed to
 ### 🔐 SSH Hardening
 
 **Before Hardening**  
-[![SSH Before Hardening](images ssh-before.png.png)](images/ssh-before.png)
+[![SSH Before Hardening](images ssh-before.png)](images/ssh-before.png)
 
 **After Hardening**  
 [![SSH After Hardening](images/ssh-after.png)](images/ssh-after.png)
