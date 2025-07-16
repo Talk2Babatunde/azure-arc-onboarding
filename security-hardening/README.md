@@ -17,7 +17,7 @@ This repository contains documentation, guides, and hands-on work I performed to
 [![SSH Before Hardening] <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/1c002c5b49e021c4cde2fd697ce4bbb44a16492a/images/images%20ssh-before.png> 
 
 **After Hardening**  
-[![SSH After Hardening](images/ssh-after.png)](images/ssh-after.png)
+[![SSH After Hardening]<https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/07787aca5a2e539bdfc6a2ede1180452110dc00d/images/images%20ssh-after.png.png>
 
 ### 🛡️ Defender for Cloud Remediation
 
