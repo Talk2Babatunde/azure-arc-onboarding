@@ -14,7 +14,7 @@ This repository contains documentation, guides, and hands-on work I performed to
 ### 🔐 SSH Hardening
 
 **Before Hardening**  
-[![SSH Before Hardening] <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/images/images%20ssh-before.png?raw=true>
+[![SSH Before Hardening] <https://github.com/Talk2Babatunde/azure-arc-onboarding/blob/main/images/images%20ssh-before.png?raw=true> 
 
 **After Hardening**  
 [![SSH After Hardening](images/ssh-after.png)](images/ssh-after.png)
